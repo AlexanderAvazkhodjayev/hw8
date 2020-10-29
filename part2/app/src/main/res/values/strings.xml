@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="Open">q</string>
+    <string name="Close">q</string>
 </resources>
