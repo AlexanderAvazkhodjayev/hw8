@@ -26,4 +26,13 @@
         app:itemTextColor="@android:color/black"
         app:menu="@menu/bottom_nav_menu" />
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="116dp"
+        android:layout_height="66dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:text="TextView" />
+
 </RelativeLayout>

@@ -5,6 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <fragment
+        android:id="@+id/map2"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="705dp"
+        android:layout_alignParentTop="true"
+        app:layout_constraintTop_toBottomOf="@+id/weatherProperty" />
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         app:labelVisibilityMode="labeled"
         android:id="@+id/bottom_navigation"
