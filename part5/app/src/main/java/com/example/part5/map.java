@@ -88,7 +88,7 @@ public class map extends AppCompatActivity implements OnMapReadyCallback {
          */
             private boolean checkTileExists(int x, int y, int zoom) {
                 int minZoom = 12;
-                int maxZoom = 16;            return (zoom >= minZoom && zoom <= maxZoom);
+                int maxZoom = 16;            return true;
             }
         };
         WeatherData w = weather.getWeatherData();
