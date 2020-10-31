@@ -72,7 +72,7 @@ public class map extends AppCompatActivity implements OnMapReadyCallback {
     public void onMapReady(GoogleMap googleMap) {
         TileProvider tileProvider = new UrlTileProvider(256, 256) {        @Override
         public URL getTileUrl(int x, int y, int zoom) {            /* Define the URL pattern for the tile images */
-            String s = String.format("https://tile.openweathermap.org/map/temp_new/1/1/1.png?appid=2397d4abcaf90749690c871029817c98", zoom, x, y);
+            String s = String.format("https://tile.openweathermap.org/map/temp_new/%d/%d/%d.png?appid=2397d4abcaf90749690c871029817c98", zoom, x, y);
             if (!checkTileExists(x, y, zoom)) {
                 return null;
             }            try {
